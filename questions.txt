@@ -1,0 +1,49 @@
+What's your favorite movie?|What's your least favorite movie?
+What's your favorite food?|What's your least favorite food?
+What's your favorite animal?|What's your least favorite animal?
+What's your favorite color?|What's your least favorite color?
+What's your favorite book?|What's your least favorite book?
+What's your favorite hobby?|What's your least favorite hobby?
+What's your favorite sport?|What's your least favorite sport?
+What's your favorite season?|What's your least favorite season?
+What's your favorite holiday?|What's your least favorite holiday?
+What's your favorite song?|What's your least favorite song?
+What's your favorite TV show?|What's your least favorite TV show?
+What's your favorite drink?|What's your least favorite drink?
+What's your favorite dessert?|What's your least favorite dessert?
+What's your favorite city?|What's your least favorite city?
+What's your favorite country?|What's your least favorite country?
+What's your favorite car?|What's your least favorite car?
+What's your favorite subject?|What's your least favorite subject?
+What's your favorite teacher?|What's your least favorite teacher?
+What's your favorite game?|What's your least favorite game?
+What's your favorite app?|What's your least favorite app?
+What's your favorite website?|What's your least favorite website?
+What's your favorite store?|What's your least favorite store?
+What's your favorite restaurant?|What's your least favorite restaurant?
+What's your favorite fruit?|What's your least favorite fruit?
+What's your favorite vegetable?|What's your least favorite vegetable?
+What's your favorite ice cream flavor?|What's your least favorite ice cream flavor?
+What's your favorite pizza topping?|What's your least favorite pizza topping?
+What's your favorite candy?|What's your least favorite candy?
+What's your favorite flower?|What's your least favorite flower?
+What's your favorite tree?|What's your least favorite tree?
+What's your favorite weather?|What's your least favorite weather?
+What's your favorite time of day?|What's your least favorite time of day?
+What's your favorite type of music?|What's your least favorite type of music?
+What's your favorite type of movie?|What's your least favorite type of movie?
+What's your favorite type of book?|What's your least favorite type of book?
+What's your favorite type of art?|What's your least favorite type of art?
+What's your favorite type of dance?|What's your least favorite type of dance?
+What's your favorite type of exercise?|What's your least favorite type of exercise?
+What's your favorite type of clothing?|What's your least favorite type of clothing?
+What's your favorite type of shoe?|What's your least favorite type of shoe?
+What's your favorite type of hat?|What's your least favorite type of hat?
+What's your favorite type of bag?|What's your least favorite type of bag?
+What's your favorite type of jewelry?|What's your least favorite type of jewelry?
+What's your favorite type of makeup?|What's your least favorite type of makeup?
+What's your favorite type of perfume?|What's your least favorite type of perfume?
+What's your favorite type of pet?|What's your least favorite type of pet?
+What's your favorite type of house?|What's your least favorite type of house?
+What's your favorite type of vacation?|What's your least favorite type of vacation?
+What's your favorite type of job?|What's your least favorite type of job?

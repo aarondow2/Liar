@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the Liar - Player 2</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+        .question { font-size: 1.2em; margin-bottom: 20px; }
+        .answer { margin-bottom: 20px; }
+        .vote { margin-bottom: 20px; }
+        .submit-btn { padding: 10px 20px; font-size: 1em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Find the Liar - Player 2</h1>
+        <div class="question" id="question">Loading question...</div>
+        <div class="answer">
+            <label for="answer">Your Answer:</label>
+            <input type="text" id="answer" name="answer">
+        </div>
+        <div class="vote">
+            <label for="vote">Vote for the Liar:</label>
+            <select id="vote" name="vote">
+                <option value="1">Player 1</option>
+                <option value="2">Player 2</option>
+                <option value="3">Player 3</option>
+                <option value="4">Player 4</option>
+                <option value="5">Player 5</option>
+                <option value="6">Player 6</option>
+                <option value="7">Player 7</option>
+                <option value="8">Player 8</option>
+                <option value="9">Player 9</option>
+                <option value="10">Player 10</option>
+                <option value="11">Player 11</option>
+                <option value="12">Player 12</option>
+            </select>
+        </div>
+        <button class="submit-btn" onclick="submitAnswer()">Submit</button>
+    </div>
+    <script>
+        const playerNum = 2;
+        const questionElement = document.getElementById('question');
+
+        // Load questions from questions.txt
+        fetch('questions.txt')
+            .then(response => response.text())
+            .then(text => {
+                const lines = text.split('\n');
+                const questions = lines.map(line => line.split('|'));
+                const question = questions[Math.floor(Math.random() * questions.length)];
+                questionElement.textContent = playerNum === 1 ? question[0] : question[1];
+            });
+
+        function submitAnswer() {
+            const answer = document.getElementById('answer').value;
+            const vote = document.getElementById('vote').value;
+            // Send answer and vote to the server (this part needs server-side handling)
+            console.log(`Player 2 answered: \${answer} and voted for Player \${vote}`);
+        }
+    </script>
+</body>
+</html>
